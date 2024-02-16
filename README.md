@@ -1,4 +1,4 @@
-# Solidity_ERC20
+# Solidity_ERC20_TOKEN
 
 # COMMING SOON AT TODAY 
 
