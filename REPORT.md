@@ -1,5 +1,5 @@
-Report: Design and Implementation
-of ERC20 Token Smart Contract
+# Report: Design and Implementation of ERC20 Token Smart Contract
+
 1. Introduction: This report outlines the creation and implementation of an ERC20
 token smart contract. The smart contract follows the ERC20 standard and includes
 features such as minting, burning, pausing, staking, and withdrawing.
