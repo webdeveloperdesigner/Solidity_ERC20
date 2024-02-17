@@ -1,0 +1,153 @@
+/* App.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #2e2e3a;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ff5722;
+}
+
+.address-container {
+  color: #fff;
+  font-size: 16px;
+}
+
+.container-sidebar {
+  display: flex;
+}
+
+.sidebar {
+  background-color: #39424e;
+  width: 200px;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+  color: #ff5722;
+}
+
+.swap-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.token_intraction {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.token_row {
+  margin-bottom: 20px;
+}
+
+.intraction-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field {
+  margin-bottom: 15px;
+}
+
+.form-field input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.submit {
+  padding: 12px 24px; /* Adjusted padding */
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px; /* Increased font size */
+  font-weight: bold; /* Added font weight */
+  text-transform: uppercase; /* Converted text to uppercase */
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #e64a19;
+}
+
+/* Connect Button Styles */
+.connect-button {
+  padding: 12px 24px;
+  background-color: #ff5722; /* Orange background */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.connect-button:hover {
+  background-color: #e64a19; /* Darker orange on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a slight shadow on hover */
+}
